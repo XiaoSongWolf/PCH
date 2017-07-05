@@ -1,0 +1,17 @@
+//
+//  PCHDemo.pch
+//  PCHDemo
+//
+//  Created by 张兆卿 on 2017/7/5.
+//  Copyright © 2017年 xiaoSong. All rights reserved.
+//
+
+#ifndef PCHDemo_pch
+#define PCHDemo_pch
+
+#import "XSYUtils.h"
+#import "XSYTapSound.h"
+#import "UIButton+Common.h"
+#import "XSAlertViewController.h"
+
+#endif /* PCHDemo_pch */

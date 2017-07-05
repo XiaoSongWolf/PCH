@@ -15,6 +15,13 @@
 		26AF1EC61F0C82D40037B2B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26AF1EC41F0C82D40037B2B4 /* LaunchScreen.storyboard */; };
 		26AF1ED11F0C82D40037B2B4 /* PCHDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AF1ED01F0C82D40037B2B4 /* PCHDemoTests.m */; };
 		26AF1EDC1F0C82D40037B2B4 /* PCHDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AF1EDB1F0C82D40037B2B4 /* PCHDemoUITests.m */; };
+		26AF1EEE1F0CC0EC0037B2B4 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AF1EED1F0CC0EC0037B2B4 /* FirstViewController.m */; };
+		26AF1EF11F0CC0F70037B2B4 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AF1EF01F0CC0F70037B2B4 /* SecondViewController.m */; };
+		26AF1EF41F0CC1210037B2B4 /* ListTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AF1EF31F0CC1210037B2B4 /* ListTableView.m */; };
+		26AF1EFB1F0CC3630037B2B4 /* XSAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AF1EF91F0CC3630037B2B4 /* XSAlertViewController.m */; };
+		26AF1F0B1F0CC3920037B2B4 /* UIButton+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AF1F021F0CC3920037B2B4 /* UIButton+Common.m */; };
+		26AF1F171F0CC3A70037B2B4 /* XSYTapSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AF1F131F0CC3A70037B2B4 /* XSYTapSound.m */; };
+		26AF1F181F0CC3A70037B2B4 /* XSYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AF1F151F0CC3A70037B2B4 /* XSYUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,21 @@
 		26AF1ED71F0C82D40037B2B4 /* PCHDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PCHDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26AF1EDB1F0C82D40037B2B4 /* PCHDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCHDemoUITests.m; sourceTree = "<group>"; };
 		26AF1EDD1F0C82D40037B2B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26AF1EE91F0C82EB0037B2B4 /* PCHDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCHDemo.pch; sourceTree = "<group>"; };
+		26AF1EEC1F0CC0EC0037B2B4 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		26AF1EED1F0CC0EC0037B2B4 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		26AF1EEF1F0CC0F70037B2B4 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		26AF1EF01F0CC0F70037B2B4 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		26AF1EF21F0CC1210037B2B4 /* ListTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableView.h; sourceTree = "<group>"; };
+		26AF1EF31F0CC1210037B2B4 /* ListTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableView.m; sourceTree = "<group>"; };
+		26AF1EF81F0CC3630037B2B4 /* XSAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSAlertViewController.h; sourceTree = "<group>"; };
+		26AF1EF91F0CC3630037B2B4 /* XSAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSAlertViewController.m; sourceTree = "<group>"; };
+		26AF1F011F0CC3920037B2B4 /* UIButton+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Common.h"; sourceTree = "<group>"; };
+		26AF1F021F0CC3920037B2B4 /* UIButton+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Common.m"; sourceTree = "<group>"; };
+		26AF1F121F0CC3A70037B2B4 /* XSYTapSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSYTapSound.h; sourceTree = "<group>"; };
+		26AF1F131F0CC3A70037B2B4 /* XSYTapSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSYTapSound.m; sourceTree = "<group>"; };
+		26AF1F141F0CC3A70037B2B4 /* XSYUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSYUtils.h; sourceTree = "<group>"; };
+		26AF1F151F0CC3A70037B2B4 /* XSYUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSYUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +127,11 @@
 				26AF1EBA1F0C82D40037B2B4 /* AppDelegate.m */,
 				26AF1EBC1F0C82D40037B2B4 /* ViewController.h */,
 				26AF1EBD1F0C82D40037B2B4 /* ViewController.m */,
+				26AF1EEA1F0CC0BA0037B2B4 /* View */,
+				26AF1EEB1F0CC0BA0037B2B4 /* ViewController */,
+				26AF1F0F1F0CC3A70037B2B4 /* Utils */,
+				26AF1EFC1F0CC3910037B2B4 /* Category */,
+				26AF1EF51F0CC3630037B2B4 /* AlertViewController */,
 				26AF1EBF1F0C82D40037B2B4 /* Main.storyboard */,
 				26AF1EC21F0C82D40037B2B4 /* Assets.xcassets */,
 				26AF1EC41F0C82D40037B2B4 /* LaunchScreen.storyboard */,
@@ -118,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				26AF1EB71F0C82D40037B2B4 /* main.m */,
+				26AF1EE91F0C82EB0037B2B4 /* PCHDemo.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +166,55 @@
 				26AF1EDD1F0C82D40037B2B4 /* Info.plist */,
 			);
 			path = PCHDemoUITests;
+			sourceTree = "<group>";
+		};
+		26AF1EEA1F0CC0BA0037B2B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				26AF1EF21F0CC1210037B2B4 /* ListTableView.h */,
+				26AF1EF31F0CC1210037B2B4 /* ListTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		26AF1EEB1F0CC0BA0037B2B4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				26AF1EEC1F0CC0EC0037B2B4 /* FirstViewController.h */,
+				26AF1EED1F0CC0EC0037B2B4 /* FirstViewController.m */,
+				26AF1EEF1F0CC0F70037B2B4 /* SecondViewController.h */,
+				26AF1EF01F0CC0F70037B2B4 /* SecondViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		26AF1EF51F0CC3630037B2B4 /* AlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				26AF1EF81F0CC3630037B2B4 /* XSAlertViewController.h */,
+				26AF1EF91F0CC3630037B2B4 /* XSAlertViewController.m */,
+			);
+			path = AlertViewController;
+			sourceTree = "<group>";
+		};
+		26AF1EFC1F0CC3910037B2B4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				26AF1F011F0CC3920037B2B4 /* UIButton+Common.h */,
+				26AF1F021F0CC3920037B2B4 /* UIButton+Common.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		26AF1F0F1F0CC3A70037B2B4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				26AF1F121F0CC3A70037B2B4 /* XSYTapSound.h */,
+				26AF1F131F0CC3A70037B2B4 /* XSYTapSound.m */,
+				26AF1F141F0CC3A70037B2B4 /* XSYUtils.h */,
+				26AF1F151F0CC3A70037B2B4 /* XSYUtils.m */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +353,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26AF1EF11F0CC0F70037B2B4 /* SecondViewController.m in Sources */,
 				26AF1EBE1F0C82D40037B2B4 /* ViewController.m in Sources */,
+				26AF1F181F0CC3A70037B2B4 /* XSYUtils.m in Sources */,
+				26AF1F0B1F0CC3920037B2B4 /* UIButton+Common.m in Sources */,
 				26AF1EBB1F0C82D40037B2B4 /* AppDelegate.m in Sources */,
+				26AF1F171F0CC3A70037B2B4 /* XSYTapSound.m in Sources */,
+				26AF1EFB1F0CC3630037B2B4 /* XSAlertViewController.m in Sources */,
+				26AF1EF41F0CC1210037B2B4 /* ListTableView.m in Sources */,
 				26AF1EB81F0C82D40037B2B4 /* main.m in Sources */,
+				26AF1EEE1F0CC0EC0037B2B4 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +512,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E6233Y4S2J;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PCHDemo/PCHDemo.pch";
 				INFOPLIST_FILE = PCHDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fayuan.PCHDemo;
@@ -440,6 +525,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E6233Y4S2J;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PCHDemo/PCHDemo.pch";
 				INFOPLIST_FILE = PCHDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fayuan.PCHDemo;
