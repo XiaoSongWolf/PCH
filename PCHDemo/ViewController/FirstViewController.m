@@ -55,7 +55,9 @@
         工具类验证了手机号的合法性，并给予了提示。
      */
     
-    if ([XSYUtils isMobileNumber:_inputTextField.text]) {
+    if (_inputTextField.text.length <= 0) {
+        [XSYUtils warningView:self.view withTitle:@"您未输入任何内容~" withTextField:nil];
+    } else if ([XSYUtils isMobileNumber:_inputTextField.text]) {
         [XSYUtils warningView:self.view withTitle:@"您输入的手机号是合法的~" withTextField:nil];
     } else {
         [XSYUtils warningView:self.view withTitle:@"您输入的手机号不合法，请重新输入~" withTextField:nil];
